@@ -5,7 +5,7 @@
 ## The object will also have two data objects, the matrix x and the null value m.
 
 makeCacheMatrix <- function(x = matrix()) {
-        m <- null
+        m <- NULL
         # The function 'set' calls x as argument and resets m to null if it's been cached before
         set <- function(y) {
                 x <<- y
